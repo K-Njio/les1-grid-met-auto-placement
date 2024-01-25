@@ -15,6 +15,7 @@
     border: 2px solid yellow;
     border-radius: 5px;
     display: flex;
+     /* Je kiest hoe het eruit moet zien. column of row is dus naast elkaar en onder elkaar. Je hebt ook een reverse- */
     flex-direction: column;
 }
 
@@ -41,4 +42,6 @@
 
 .listing .body{
     padding: 10px;
+    /* Extra geoefend. */
+    min-height: 200px;
 }
