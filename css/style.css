@@ -3,14 +3,28 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+.wrapper{
+    display: grid;
+    grid-template-columns: (15% 70% 15%);
+    grid-auto-rows: minmax(100px, auto);
+    grid-area: 
+    "hd hd hd"
+    "as mn as2"
+    "ft ft ft";
+}
 .listing{
     display: grid;
+    grid-area: mn;
     grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px,auto);
     list-style: none;
     gap: 10px;
 }
-
+header{
+    grid-area: "hd";
+    background-color: aqua;
+    min-height: 100px;
+}
 .listing li{
     border: 2px solid yellow;
     border-radius: 5px;
@@ -44,4 +58,12 @@
     padding: 10px;
     /* Extra geoefend. */
     min-height: 200px;
+}
+
+.as {
+    grid-area: as;
+}
+
+.as2{
+    grid-area: as2;
 }
