@@ -1,0 +1,13 @@
+.listing{
+    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+    grid-auto-rows:minmax(auto);
+    display: grid;
+    gap: 10px;
+    min-height: auto;
+}
+
+li{
+    width: 200px;
+    min-height: auto;
+    background-color: aliceblue;
+}

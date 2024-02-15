@@ -33,6 +33,7 @@ main {
     display: grid;
     gap: 10px;
     min-height: auto;
+    list-style: none;
 }
 li{
     width: 200px;
